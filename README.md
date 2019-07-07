@@ -1,1 +1,1 @@
-MYSYS2 mingw builds of hdf5
+MSYS2 builds of hdf5 using the mingw-w64 compilers
