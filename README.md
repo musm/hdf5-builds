@@ -4,7 +4,7 @@ MSYS2 builds of hdf5 using the mingw compiler
 
 ## Build instructions
 
-Install required patches
+Install required packages
 
 ```sh
 pacman -S mingw-w64-x86_64-gcc patch diffutils
@@ -15,9 +15,9 @@ Download hdf5
 ```sh
 cd ~
 
-wget -O https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz
+curl -O https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.gz
 
-wget -O https://github.com/musm/hdf5-builds/blob/master/utf8-windows-filenames.patch
+curl -O https://raw.githubusercontent.com/musm/hdf5-builds/master/utf8-windows-filenames.patch
 ```
 
 Compile and install
